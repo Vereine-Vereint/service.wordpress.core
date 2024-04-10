@@ -1,6 +1,6 @@
-# service.template
+# service.wordpress
 
-service for TEMPLATE
+Wordpress Service
 
 [Documentation of service core](https://github.com/Vereine-Vereint/service.core)
 
