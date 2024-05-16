@@ -20,12 +20,11 @@ services:
     networks:
     - traefik # add to traefik network
     - default # add to default (stack internal) network
-  
+
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.wordpress.rule=Host(`${WORDPRESS_DOMAIN}`)"
       - "traefik.http.routers.wordpress.entrypoints=websecure"
-
 
   wordpress-db:
     image: mysql:5.7
